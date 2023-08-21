@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Poppins:wght@400;600&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Caprasimo', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.smallcontainer {
+  background-color: #ddd;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.smallcontainer i {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+.smallcontainer h2 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+form {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 65vh;
+  width: 50vw;
+  border-radius: 15px;
+  padding: 2rem 2rem 1rem;
+}
+form input {
+  width: 50%;
+  font-size: 1.2rem;
+  border: none;
+  border: 2px solid grey;
+  margin-bottom: 1rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+}
+.password {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  height: 1rem;
+  margin-bottom: 2rem;
+}
+#pass {
+  width: 23vw;
+  display: block;
+  margin: 0 auto;
+}
+button {
+  width: 23vw;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+#secondspan {
+  color: black;
+}
+.box {
+  margin-top: 1rem;
+  width: 23vw;
+  border: 1px solid black;
+  padding: 0.4rem 0.5rem;
+  border-radius: 6px;
+}
+#secondbox {
+  border: none;
+}
+#secondbox span {
+    font-size: 0.9rem;
+  margin-right: 0.5rem;
+}
+#hide{
+  position: relative;
+  top: 21%;
+  left: 21%;
+  cursor: pointer;
+}

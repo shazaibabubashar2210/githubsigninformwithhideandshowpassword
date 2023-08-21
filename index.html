@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="shortcut icon" href="github.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="media.css">
+    <title>GITHUB | Sign In Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="smallcontainer">
+            <i class="fa-brands fa-github" style="color: #050505;"></i>
+            <h2>Sign in to Github</h2>
+            <form action="#" id="form">
+                <h2>User name or email address</h2>
+                <input type="email" name="email" id="email" required="Please enter your valid e-mail address"  placeholder="Enter your email address here"/><img src="hide.png" alt="" height="25px" width="25px" id="hide">
+                <div class="password">
+                    <h2>Password</h2><a href="#" style="color: blue; text-decoration: none;">Forget Password?</h2>
+                </div>
+                <input type="password" name="pass" id="pass" placeholder="Enter password" ><br/>
+                <button> Sign In</button>
+                <div class="box">
+                    <span id="secondspan">New Github? </span><a href="#" style="text-decoration: none;">Create an account</a>
+                </div>
+                <div class="box" id="secondbox">
+                    <span style="color: blue; cursor: pointer;">Terms</span>
+                    <span style="color: blue; cursor: pointer;">Privacy</span>
+                    <span style="color: blue; cursor: pointer;">Security</span>
+                    <span>Contact Github</span>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

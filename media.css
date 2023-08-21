@@ -1,0 +1,176 @@
+@media only screen and (max-width:350px)
+{
+  body{
+    background-color: #ddd;
+  }
+  .smallcontainer{
+    height: 80vh;
+  }
+    .smallcontainer h2 {
+        font-weight: 400;
+        margin-bottom: 1rem;
+        font-size: 0.6rem;
+      }
+      .smallcontainer i {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+      .smallcontainer h2 {
+        font-weight: 400;
+        margin-bottom: 1rem;
+        font-size: 0.6rem;
+      }
+      form {
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 37vh;
+        width: 80vw;
+        border-radius: 15px;
+        padding: 1rem 1rem 1rem;
+      }
+      form input {
+        width: 61%;
+        font-size: 0.4rem;
+        border: none;
+        border: 2px solid grey;
+        margin-bottom: 0.6rem;
+        padding: 0.2rem 0.5rem;
+        border-radius: 6px;
+      }
+      .password a{
+            color: blue;
+            text-decoration: none;
+            font-size: 0.5rem;
+      }
+      #pass {
+        width: 44vw;
+        display: block;
+        margin: 0 auto;
+      }
+      button {
+        width: 45vw;
+        cursor: pointer;
+        background-color: green;
+        color: white;
+        padding: 0.3rem 0.5rem;
+        border-radius: 10px;
+        font-size: 0.5rem;
+      }
+      .box {
+        margin-top: 1rem;
+        width: 45vw;
+        border: 1px solid black;
+        padding: 0.4rem 0.5rem;
+        border-radius: 6px;
+        font-size: 0.5rem;
+      }
+      .password {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        height: 1rem;
+        margin-bottom: 0.4rem;
+      }
+      #secondbox span {
+        font-size: 0.4rem;
+        margin-right: 0.3rem;
+      }
+      #hide {
+        position: relative;
+        top: 15%;
+        left: 24%;
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+      }
+}
+@media only screen and (min-width:351px) and (max-width:650px)
+{
+  body{
+    background-color: #ddd;
+  }
+  .smallcontainer{
+    height: 80vh;
+  }
+    .smallcontainer h2 {
+        font-weight: 400;
+        margin-bottom: 1rem;
+        font-size: 0.6rem;
+      }
+      .smallcontainer i {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+      .smallcontainer h2 {
+        font-weight: 400;
+        margin-bottom: 1rem;
+        font-size: 0.6rem;
+      }
+      form {
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 37vh;
+        width: 80vw;
+        border-radius: 15px;
+        padding: 1rem 1rem 1rem;
+      }
+      form input {
+        width: 61%;
+        font-size: 0.4rem;
+        border: none;
+        border: 2px solid grey;
+        margin-bottom: 0.6rem;
+        padding: 0.2rem 0.5rem;
+        border-radius: 6px;
+      }
+      .password a{
+            color: blue;
+            text-decoration: none;
+            font-size: 0.5rem;
+      }
+      #pass {
+        width: 44vw;
+        display: block;
+        margin: 0 auto;
+      }
+      button {
+        width: 45vw;
+        cursor: pointer;
+        background-color: green;
+        color: white;
+        padding: 0.3rem 0.5rem;
+        border-radius: 10px;
+        font-size: 0.5rem;
+      }
+      .box {
+        margin-top: 1rem;
+        width: 45vw;
+        border: 1px solid black;
+        padding: 0.4rem 0.5rem;
+        border-radius: 6px;
+        font-size: 0.5rem;
+      }
+      .password {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        height: 1rem;
+        margin-bottom: 0.4rem;
+      }
+      #secondbox span {
+        font-size: 0.4rem;
+        margin-right: 0.3rem;
+      }
+      #hide {
+        position: relative;
+        top: 15%;
+        left: 24%;
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+      }
+}
